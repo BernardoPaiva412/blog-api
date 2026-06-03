@@ -2,17 +2,17 @@
   "name": "blog-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "tsx watch src/server.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BernardoPaiva412/blog-api.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["blog", "api", "express", "typescript", "prisma", "node"],
+  "author": "Bernardo Paiva",
+  "license": "MIT",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/BernardoPaiva412/blog-api/issues"
